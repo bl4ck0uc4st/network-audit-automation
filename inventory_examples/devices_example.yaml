@@ -1,0 +1,11 @@
+devices:
+  - name: R1
+    platform: cisco_ios
+    site: edmonton-lab
+    role: edge
+    tags: [lab, demo]
+  - name: R2
+    platform: cisco_ios
+    site: edmonton-lab
+    role: core
+    tags: [lab, demo]

@@ -1,0 +1,9 @@
+service timestamps log datetime msec
+service timestamps debug datetime msec
+ip domain-name lab.local
+ip ssh version 2
+ntp server 192.0.2.10 prefer
+line vty 0 4
+ login local
+ transport input ssh
+!
